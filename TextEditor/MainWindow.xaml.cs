@@ -24,5 +24,18 @@ namespace TextEditor
 		{
 			InitializeComponent();
 		}
+
+		private void BtnCopy_Click(object sender, RoutedEventArgs e)
+		{
+			textBox.Copy();
+		}
+		private void BtnPaste_Click(object sender, RoutedEventArgs e)
+		{
+			textBox.Paste();
+		}
+		private void BtnCut_Click(object sender, RoutedEventArgs e)
+		{
+			textBox.Cut();
+		}
 	}
 }
